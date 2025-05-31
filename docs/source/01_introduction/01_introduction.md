@@ -19,7 +19,7 @@ For more details, see [Mlflow's official documentation](https://www.mlflow.org/d
 
 ## A brief comparison between ``Kedro`` and ``Mlflow``
 
-While ``Kedro`` and ``Mlflow`` do not compete in the same field, they provide some overlapping functionalities. ``Mlflow`` is specifically dedicated to machine learning and its lifecycle management, while ``Kedro`` focusing on data pipeline development. Below chart compare the different functionalities:
+While ``Kedro`` and ``Mlflow`` do not compete in the same field, they provide some overlapping functionalities. ``Mlflow`` is specifically dedicated to machine learning and its lifecycle management, while ``Kedro`` focuses on data pipeline development. Below chart compare the different functionalities:
 
 | Functionality                  | Kedro                                             | Mlflow                                                                              |
 | :----------------------------- | :------------------------------------------------ | :---------------------------------------------------------------------------------- |
@@ -49,7 +49,7 @@ We discuss hereafter how the two libraries compete on the different functionalit
 
 ### Versioning: Kedro 1 - 1 Mlflow
 
-Kedro ahas made a bunch of attempts in the world of experiment tracking, with the ``Journal`` in early days (``kedro<=0.18``), then with an [experiment tracking functionality](https://docs.kedro.org/projects/kedro-viz/en/v9.2.0/experiment_tracking.html) which kept track of the parameters but which will be removed in ``kedro>=0.20`` due to the lack of traction (https://github.com/kedro-org/kedro-viz/issues/2202).
+Kedro has made a bunch of attempts in the world of experiment tracking, with the ``Journal`` in early days (``kedro<=0.18``), then with an [experiment tracking functionality](https://docs.kedro.org/projects/kedro-viz/en/v9.2.0/experiment_tracking.html) which kept track of the parameters but which will be removed in ``kedro>=0.20`` due to the lack of traction (https://github.com/kedro-org/kedro-viz/issues/2202).
 
 On the other hand, ``Mlflow``:
 
